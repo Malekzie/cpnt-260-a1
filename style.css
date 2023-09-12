@@ -3,21 +3,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Source+Sans+3&display=swap');
 /* Font Family */
 
+/* Selects the whole page and colors the text */
 *{
   color: RGB(240, 214, 187);
 }
 
+/* Selects the body tag and applies padding, margin and bg color */
 body{
-  padding: auto;
+  padding: 1rem;
   margin: 10px;
   background-color: RGB(53, 53, 53) ;
 }
 
+/* Selects the h-tags and applies font and aligns the text to center */
 h1, h2, h3{
   font-family: 'Playfair Display', serif;
   text-align: center;
 }
 
+/* Selects the child paragraphs and lists and applies font and font size */
 p, ul, li{
   font-family: 'Source Sans 3', sans-serif;
   font-size: medium;
