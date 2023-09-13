@@ -8,6 +8,21 @@
   color: RGB(240, 214, 187);
 }
 
+/* Sets the Icon */
+.icon{
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  max-width: 100%;
+  height: 4rem;
+}
+
+/* Styles the header */
+header{
+  display: flex;
+  justify-content: center;
+}
+
 /* Selects the body tag and applies padding, margin and bg color */
 body{
   padding: 1rem;
@@ -19,6 +34,8 @@ body{
 h1, h2, h3{
   font-family: 'Playfair Display', serif;
   text-align: center;
+  letter-spacing: large;
+  padding-left: 4em;
 }
 
 /* Selects the child paragraphs and lists and applies font and font size */
