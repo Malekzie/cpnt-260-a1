@@ -14,7 +14,7 @@
   flex-wrap: nowrap;
   position: relative;
   max-width: 100%;
-  height: 4rem;
+  height: 4rem;/
 }
 
 /* Styles the header */
@@ -31,7 +31,7 @@ body{
 }
 
 /* Selects the h-tags and applies font and aligns the text to center */
-h1, h2, h3{
+h1, .title, .subtitle{
   font-family: 'Playfair Display', serif;
   text-align: center;
   letter-spacing: large;
