@@ -4,12 +4,13 @@
 /* Font Family */
 
 /* Selects the whole page and colors the text */
-*{
+* {
   color: RGB(240, 214, 187);
+  border: 1px solid red;
 }
 
 /* Sets the Icon */
-.icon{
+.icon {
   display: flex;
   flex-wrap: nowrap;
   position: relative;
@@ -18,28 +19,43 @@
 }
 
 /* Styles the header */
-header{
+header {
   display: flex;
   justify-content: center;
 }
 
+nav{
+  padding: 0;
+  margin: 0;
+}
+
 /* Selects the body tag and applies padding, margin and bg color */
-body{
-  padding: 1rem;
+body {
+  padding: 3rem;
   margin: 10px;
-  background-color: RGB(53, 53, 53) ;
+  background-color: RGB(53, 53, 53);
+  padding-left: 20%;
 }
 
 /* Selects the h-tags and applies font and aligns the text to center */
-h1, .title, .subtitle{
+h1,
+.title,
+.subtitle {
   font-family: 'Playfair Display', serif;
   text-align: center;
   letter-spacing: large;
   padding-left: 4em;
 }
 
+.title, .subtitle{
+  box-sizing: border-box;
+  background-color: #404040 ;
+}
+
 /* Selects the child paragraphs and lists and applies font and font size */
-p, ul, li{
+p,
+ul,
+li {
   font-family: 'Source Sans 3', sans-serif;
   font-size: medium;
 }
