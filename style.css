@@ -3,12 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Source+Sans+3&display=swap');
 /* Font Family */
 
-/* Selects the whole page and colors the text */
-* {
-  color: RGB(240, 214, 187);
-  border: 1px solid red;
-}
-
 /* Sets the Icon */
 .icon {
   display: flex;
@@ -24,16 +18,54 @@ header {
   justify-content: center;
 }
 
-nav{
-  padding: 0;
-  margin: 0;
+/* Styles the side nav */
+.nav-title {
+  font-size: 30px;
+  position: relative;
+  width: 15%;
 }
+
+.nav {
+  align-items: center;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+  width: 160px;
+}
+
+.finder {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.finder:hover {
+  background-color: RGB(240, 214, 187, 0.5);
+}
+
+.navbar {
+  position: fixed;
+  list-style-type: none;
+  width: 15%;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 20px;
+  font-family: 'Playfair Display', serif;
+  padding-left: 0;
+
+}
+
 
 /* Selects the body tag and applies padding, margin and bg color */
 body {
-  padding: 3rem;
+  padding: 1rem;
   margin: 10px;
   background-color: RGB(53, 53, 53);
+
+}
+
+main {
   padding-left: 20%;
 }
 
@@ -47,9 +79,11 @@ h1,
   padding-left: 4em;
 }
 
-.title, .subtitle{
+.title,
+.subtitle {
   box-sizing: border-box;
-  background-color: #404040 ;
+  background-color: #404040;
+
 }
 
 /* Selects the child paragraphs and lists and applies font and font size */
@@ -58,4 +92,14 @@ ul,
 li {
   font-family: 'Source Sans 3', sans-serif;
   font-size: medium;
+}
+
+h1,
+.title,
+.subtitle,
+.nav-title,
+p,
+ul,
+li {
+  color: RGB(240, 214, 187);
 }

@@ -1,10 +1,7 @@
-<h1>CPNT-260</h1>
-<span>Text Column Assignment</span>
-<p>Made by Malekzie</p>
+CPNT 260
+Text Column Assignment
+by Robbie Soriano
 
-<hr>
-<p>A simple static markup page for practicing HTML and CSS</p>
-
-<hr>
-<strong><a href="https://fonts.google.com">Fonts</a></strong>
-<p><strong><a href="https://www.pagecloud.com/blog/best-google-fonts-pairings">Background and font color Idea</strong></a></p>
+ABOVE AND BEYOND
+- An image not distorted or pixelated: At Line 12 of the html file, The icon for the text is shown.
+- Letter Spacing was added: at Line 86 of the styles.css, I've added 5px of letter spacing to the .title and .subtitle classes
