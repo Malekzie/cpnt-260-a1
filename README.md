@@ -1,6 +1,7 @@
 # CPNT 260
 ## Text Column Assignment
 by Robbie Soriano
+https://malekzie.github.io/cpnt-260-a1/
 
 ABOVE AND BEYOND
 1. An image not distorted or pixelated: At Line 12 of the html file, The icon for the text is shown.
